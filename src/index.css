@@ -1,0 +1,139 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f3e5f5; 
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.expenses {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  width: 360px;
+  max-width: 90%;
+  text-align: left; 
+  border: 3px solid #6a1b9a;
+}
+
+h2 {
+  color: #6a1b9a;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 1.8rem; 
+  text-align: center; 
+}
+
+button {
+  background-color: #6a1b9a;
+  color: #ffd700;
+  border: none;
+  border-radius: 8px;
+  padding: 14px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  display: block;
+  width: 100%; 
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #4a0072; 
+  transform: translateY(-2px); 
+}
+
+.form-control {
+  margin-bottom: 20px; 
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #6a1b9a;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  background-color: #f7f7f7; 
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: #6a1b9a; 
+}
+
+.money {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center; 
+  margin-top: 10px;
+}
+
+.money.plus {
+  color: #ffd700;
+}
+
+.money.minus {
+  color: #d32f2f;
+}
+
+form {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 10px;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fafafa;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.container div {
+  text-align: center;
+  padding: 10px;
+}
+
+h4 {
+  margin-bottom: 8px;
+  font-size: 1rem;
+  color: #6a1b9a;
+  font-weight: bold;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #6a1b9a;
+  color: #ffd700;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4a0072;
+}
+
